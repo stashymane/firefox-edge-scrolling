@@ -1,11 +1,14 @@
 {
-  "id": "template",
-  "name": "Package template",
-  "description": "A package to be used as a template for building your own.",
+  "id": "edge-scrolling",
+  "name": "Edge scrolling",
+  "description": "Make Firefox scrolling feel more like Edge.",
   "version": "1.0.0",
-  "compatible": ["76", "75"],
+  "compatible": "76+",
   "prefs": {
-    "toolkit.legacyUserProfileCustomizations.stylesheets": true
+    "general.smoothScroll.currentVelocityWeighting": 0,
+    "general.smoothScroll.mouseWheel.durationMaxMS": 300,
+    "general.smoothScroll.stopDecelerationWeighting": 0.8,
+    "mousewheel.min_line_scroll_amount": 25
   },
-  "updateUrl": "https://github.com/stashymane/ffmanager-package-template"
+  "updateUrl": "https://github.com/stashymane/firefox-edge-scrolling"
 }
