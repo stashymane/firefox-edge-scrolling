@@ -1,3 +1,3 @@
-# ffmanager-package-template
-A template package to get started making Firefox user styles.  
-Contains a `meta.json` file for compatibility with FFManager.
+# Firefox Edge Scrolling
+Make smooth scrolling on Firefox feel more like Microsoft Edge.
+Requires FFManager to install.
