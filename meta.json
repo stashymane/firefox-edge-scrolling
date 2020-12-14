@@ -6,8 +6,13 @@
   "compatible": "76+",
   "prefs": {
     "general.smoothScroll.currentVelocityWeighting": 0,
-    "general.smoothScroll.mouseWheel.durationMaxMS": 300,
-    "general.smoothScroll.stopDecelerationWeighting": 0.8,
+    "general.smoothScroll.mouseWheel.migrationPercent": 0,
+    "general.smoothScroll.msdPhysics.enabled": true,
+    "general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS": 250,
+    "general.smoothScroll.msdPhysics.motionBeginSpringConstant": 450,
+    "general.smoothScroll.msdPhysics.slowdownMinDeltaMS": 50,
+    "general.smoothScroll.msdPhysics.slowdownMinDeltaRatio": 0.4,
+    "general.smoothScroll.msdPhysics.slowdownSpringConstant": 5000,
     "mousewheel.min_line_scroll_amount": 25
   },
   "updateUrl": "https://github.com/stashymane/firefox-edge-scrolling"
